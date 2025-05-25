@@ -115,7 +115,7 @@ python class.py
 2. Ensure each data entry contains the DAR value
 3. Create a folder named "classification_weights" and place "ADC_9.h5" into it
 
-For reproducing results, run class.py directly. For hyperparameter search, uncomment lines 254-279 and comment lines 281-285.
+For reproducing results, run class.py directly.
 
 ```ruby
 conda activate ADCNet
