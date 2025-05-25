@@ -83,7 +83,6 @@ pip install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidi
 pip install rdkit
 pip install numpy
 pip install pandas
-conda install -c openbabel openbabel
 pip install matplotlib
 pip install hyperopt
 pip install scikit-learn
@@ -91,7 +90,7 @@ pip install torch
 pip install openpyxl
 pip install fair-esm
 ```
-
+Refer to this link to download openbabel `https://openbabel.org/docs/Installation/install.html#compile-language-bindings`
 ## Usage Examples
 
 ### Training ADCNet
