@@ -76,17 +76,10 @@ py37.yaml contains the version specifications for various packages in the instal
 
 ## Required Packages
 
-### ESM-2 Environment Installation
-```ruby
-conda create -n esm-2 python==3.9
-pip install fair-esm  # latest release, OR:
-pip install git+https://github.com/facebookresearch/esm.git  # bleeding edge, current repo main branch
-```
-
 ### ADCNet Environment Installation
 ```ruby
-conda create -n ADCNet python==3.7
-pip install tensorflow==2.3
+conda create -n ADCNet python==3.10
+pip install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 pip install rdkit
 pip install numpy
 pip install pandas
@@ -96,6 +89,7 @@ pip install hyperopt
 pip install scikit-learn
 pip install torch
 pip install openpyxl
+pip install fair-esm
 ```
 
 ## Usage Examples
